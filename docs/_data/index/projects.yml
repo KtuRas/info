@@ -1,43 +1,51 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+# Suggest projects' img be located at '/static/assets/img/projects', and edit following img items.
 - name: Havada Yazı
   i18n: 
   gh_user: KtuRas
   repo: havadayazi
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  img: /static/assets/img/projects/arduino-logo.png
+  desc: Bu projede Arduino kullanarak havada yazı yazan bir mekanizma oluşturulmuştur.
 
-- name: Havada Yazı
+- name: Robot Kol
   i18n: 
   gh_user: KtuRas
-  repo: havadayazi
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  repo: Robotic-Arm
+  img: /static/assets/img/projects/leap-logo.png
+  desc: Bu projede LeapMoiton sensör kullanılarak 5 eksen robot kolun kablosuz kontrolü sağlanmıştır.
 
 - name: RFID Kapı
   i18n: 
   gh_user: KtuRas
   repo: RFID-Door
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  img: /static/assets/img/projects/arduino-logo.png
+  desc: Bu projede elektroik kilide sahip bir kapının RFID okuyucu yardımı ile açılması sağlanmıştır.
 
 - name: Otonom Robot
   i18n: 
   gh_user: KtuRas
   repo: autonomous-car
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  img: /static/assets/img/projects/ros-logo.jpg
+  desc: Bu projede ROS ve Derin Öğrenme kullanılarak otonom robot prototipi oluşturulmuştur.
 
 - name: Otonom Robot Simulatörü
   i18n: 
   gh_user: KtuRas
   repo: robot-sim
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  img: /static/assets/img/projects/ros-logo.jpg
+  desc: Bu projede ROS ve Derin Öğrenme kullanılarak otonom robot simülasyonlları gerçekleştirilmiştir.
 
-- name: Google
+- name: NeuroSky Yarış
   i18n: 
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  gh_user: KtuRas
+  repo: NeuroSky-Race
+  img: /static/assets/img/projects/neurosky-logo.jpg
+  desc: Bu projede NeuroSky EEG sensörü kullanıllarak iki kişinin oynayabileceği yarış ortamı oluşturulmuştur.
+
+- name: NeuroSky Otomasyon
+  i18n: 
+  gh_user: KtuRas
+  repo: NeuroSky-Automation
+  img: /static/assets/img/projects/neurosky-logo.jpg
+  desc: Bu projede NeuroSky EEG sensörü kullanılıarak tamamen felçli hastalar için otomasyon projesi oluşturulmuştur.

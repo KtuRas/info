@@ -1,18 +1,16 @@
 # links section data
-- last_name: Name 1
+- last_name: Karadeniz Teknik Üniversitesi
   first_name:
   desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
+  website: http://www.ktu.edu.tr/
+  email: 
+  img: /static/assets/img/supports/ktu_logo.png
 
-- last_name: Donate
-  first_name: Jalpc
+- last_name: İnovas Elektronik
+  first_name: 
   desc: Support Jalpc
-  website: http://www.jarrekk.com/donate/
-  email: me@jarrekk.com
+  website: http://www.inovas.tech/
+  email: 
+  img: /static/assets/img/supports/inovas.png
 
-- last_name: LN
-  first_name: FN
-  desc: COO
-  website: https://github.com
-  email: coo@google.com
+
