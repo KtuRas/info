@@ -2,5 +2,5 @@
 
 label: Beceri (%)
 id : cs
-aspects: GitHub, HTML5, Deep Learning, Python, C/C++, ROS, Embeded Proccessesors
-percentage: 100, 35, 65, 80, 75, 90, 85
+aspects: OpenCV, NodeJs, Deep Learning, Python, C/C++, ROS, Embeded Proccessesors, Electronic
+percentage: 70, 50, 65, 80, 75, 90, 85, 90
