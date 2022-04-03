@@ -1,6 +1,0 @@
-# skills section data
-
-label: Beceri (%)
-id : cs
-aspects: OpenCV, NodeJs, Deep Learning, Python, C/C++, ROS, Embeded Proccessesors, Electronic
-percentage: 70, 50, 65, 80, 75, 90, 85, 90
