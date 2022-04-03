@@ -1,74 +1,23 @@
-# Welcome to Jekyll!
+title: fullPage Jekyll
+description: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-# Website settings
-title: KTURO Tanıtım Sayfası
-description: Yaptığımız çalışmaların tanıtımını içeren blog sayfası
-keywords: ktu,ras,ieee,robotics,eee,arduino,projects
-baseurl:  /info # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://kturas.github.io/info/  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
-img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
-
-# author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: KTURAS  # Be used at blog posts' author.
-  first_name:   # Be used at index page about me section.
-  last_name:   # Be used at index page about me section.
-  avatar: /static/assets/img/landing/logo-2.png  # upload your avatar at directory and edit it.
-  github_username: KtuRas  # Leave blank if you don't have now
-  linkedin_id:  # Leave blank if you don't have now
-  facebook_username:   # Leave blank if you don't have now
-  twitter_username: ktueec  # Leave blank if you don't have now
-  email: ktu.otonom@gmail.com  # Leave blank if you don't have now
-  cv:   # An online CV can be printed as PDF, leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
-  skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  #desc: Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.  # Describe yourself.
-  desc: Karadeniz Teknik Üniversitesi Elektrik - Elektronik Mühendisliği Kulübü çatısı altında olan robotik ve 
-      otomasyon topluluğumuz yıllardır bir çok çalışma gerçekleştirmiş ve hala gerçekleştirmektedir. Bu çalışmalardan 
-      bazıları github üzerinde paylaşılmış olup her bir projenin kaynak kodlarına ve açıklamalarının olduğu bağlantılara ulaşabilirsiniz.
-        
-
-# comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
-
-# analytics
-## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: UA-93473370-3
-
-## google optimize
-go:
-  # id:
-
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
-
-## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
-
-## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
-
-# scss
-sass:
-  style: compressed
+baseurl: "/fullpage-jekyll" # the subpath of your site, e.g. /blog/
+# google_analytics:
 
 # Build settings
-encoding: utf-8
-
-# other settings
-highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+highlighter: rouge
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+collections:
+  tabs:
+    output: false
